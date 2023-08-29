@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    
+    <div class="container p-3">
+        <input type="text" placeholder="Nombre" id="nameInput">
+        <input type="number" placeholder="Telefono" id="cellInput">
+        <input type="button" value="Agregar contacto" id="submitButton">
+    </div>
+    <div class="container d-flex justify-content-center">
+		<ul class="list-group mt-5 text-white" id="contact-list">
+		  <li class="list-group-item d-flex justify-content-between align-content-center">
+		  	<div class="d-flex flex-row">
+		  		<img src="img/file-person-fill.svg" width="40" />
+		  		<div class="ml-2">
+		  			<h6 class="mb-0">Felipe Pacin</h6>
+		  			<div class="about">
+		  				<span>097436997</span>
+		  			</div>
+		  		</div>
+		  	</div>
+            <div class="check">
+                <img src="img/trash-fill.svg"/>
+            </div>
+		  </li>
+		</ul>
+		</div>
 </body>
 </html>
