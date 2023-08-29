@@ -1,7 +1,12 @@
 body{
 	background: #855cff;
 }
-
+#form-box{
+     width: 600px;
+     background-color: #3d47ff;
+     border-radius: 20px;
+     border: black solid 5px;
+}
 .list-group{
 	width: 600px !important;
 
